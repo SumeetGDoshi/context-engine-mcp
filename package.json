@@ -1,0 +1,50 @@
+{
+  "name": "@context-engine/mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server that enforces Research → Plan → Validate workflow for AI coding",
+  "type": "module",
+  "bin": {
+    "context-engine": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint src --ext ts",
+    "test": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "cursor",
+    "ai-coding",
+    "context-engineering",
+    "workflow-automation"
+  ],
+  "author": "Context Engine",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SumeetGDoshi/context-engine-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SumeetGDoshi/context-engine-mcp/issues"
+  },
+  "homepage": "https://github.com/SumeetGDoshi/context-engine-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "vitest": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
