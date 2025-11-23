@@ -30,14 +30,14 @@ This is the workflow that enabled:
 - **Zero rework** on 300k line Rust codebase (BAML case study)
 - **2 PRs on first day** for engineering interns
 
-[Watch Dex's talk](https://www.youtube.com/watch?v=example) explaining the methodology.
+[Watch Dex's talk](https://www.youtube.com/watch?v=IS_y40zY-hc) explaining the methodology.
 
 ## 🚀 Quick Start
 
 ### Installation
 
 ```bash
-npm install -g @context-engine/mcp-server
+npm install -g @contexter/mcp-server
 ```
 
 ### Configure with Cursor
@@ -63,7 +63,7 @@ Add to Claude Desktop config (`~/Library/Application Support/Claude/claude_deskt
   "mcpServers": {
     "context-engine": {
       "command": "npx",
-      "args": ["@context-engine/mcp-server"]
+      "args": ["@contexter/mcp-server"]
     }
   }
 }
@@ -391,16 +391,10 @@ Link research and plans to tickets automatically.
 - [ ] Advanced metrics & insights
 - [ ] API for integrations
 
-## 📚 Resources
-
-- [Dex's AI Engineer Talk](https://youtube.com/watch?v=example) - The methodology explained
-- [Stanford Study on AI Code](https://example.com) - The 50% rework problem
-- [12 Factor Agents](https://example.com) - Original context engineering manifesto
-- [Sean Grove's "The New Code"](https://example.com) - Spec-first development
-
 ## 🤝 Contributing
 
 We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome support buymeacoffee.com/thecodershow
 
 ## 📄 License
 
@@ -409,8 +403,6 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## 💬 Support
 
 - **Issues**: [GitHub Issues](https://github.com/context-engine/mcp-server/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/context-engine/mcp-server/discussions)
-- **Discord**: [Join our Discord](https://discord.gg/context-engine)
 
 ## 🙏 Acknowledgments
 
@@ -424,5 +416,5 @@ Built on the workflow pioneered by:
 **Stop wasting 50% of your AI code. Start using Context Engine today.**
 
 ```bash
-npm install -g @context-engine/mcp-server
+npm install -g @contexter/mcp-server
 ```
