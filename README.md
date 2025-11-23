@@ -48,7 +48,8 @@ Add to your Cursor MCP settings (`~/.cursor/mcp.json`):
 {
   "mcpServers": {
     "context-engine": {
-      "command": "context-engine"
+      "command": "npx",
+      "args": ["@contexter/mcp-server"]
     }
   }
 }
