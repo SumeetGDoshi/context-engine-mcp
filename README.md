@@ -37,7 +37,7 @@ This is the workflow that enabled:
 ### Installation
 
 ```bash
-npm install -g @contexter/mcp-server
+npm install -g @context-engine/mcp-server
 ```
 
 ### Configure with Cursor
@@ -49,7 +49,7 @@ Add to your Cursor MCP settings (`~/.cursor/mcp.json`):
   "mcpServers": {
     "context-engine": {
       "command": "npx",
-      "args": ["@contexter/mcp-server"]
+      "args": ["@context-engine/mcp-server"]
     }
   }
 }
@@ -64,7 +64,7 @@ Add to Claude Desktop config (`~/Library/Application Support/Claude/claude_deskt
   "mcpServers": {
     "context-engine": {
       "command": "npx",
-      "args": ["@contexter/mcp-server"]
+      "args": ["@context-engine/mcp-server"]
     }
   }
 }
@@ -350,7 +350,7 @@ jobs:
       
       - name: Run validation
         run: |
-          npx @context-engine/validate
+          npx @context-engine/mcp-server validate
 ```
 
 ### Pre-commit Hooks
